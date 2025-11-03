@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-O : NEW VERSION</title>
+    <link rel="stylesheet" href="./game.css">
+    
+</head>
+<body>
+
+    
+     
+        <div class="Tit">XO - GAME</div>
+
+        <div class="Start" id="ST">Start with X</div>
+
+    <div class="Box-parent">
+       
+            <div class="Box-sub">
+
+                <div class="Box-1" id="Box-1" onclick="box1()"></div>
+                <div class="Box-1" id="Box-2" onclick="box2()"></div>
+                <div class="Box-1" id="Box-3" onclick="box3()"></div>
+                <div class="Box-1" id="Box-4" onclick="box4()"></div>
+                <div class="Box-1" id="Box-5" onclick="box5()"></div>
+                <div class="Box-1" id="Box-6" onclick="box6()"></div>
+                <div class="Box-1" id="Box-7" onclick="box7()"></div>
+                <div class="Box-1" id="Box-8" onclick="box8()"></div>
+                <div class="Box-1" id="Box-9" onclick="box9()"></div>
+
+
+
+            </div>
+      
+    </div>  
+
+    <div class="Btn-parent"> <button onclick="Btn()"  class="btn-1">RESTART &#10227;</button></div>
+
+   <span class="win-parent">WINNER IS: <span  id="wins"></span></span> 
+    
+    
+<h1 class="Start"> X - SCORE :<span id="xscore">0</span></h1>
+<h1 class="Start"> O - SCORE :<span id="oscore">0</span></h1>
+ <div class="Btn-parent-2"> <button onclick="btn2()"  class="btn-2">Reset  Score  &#10227;</button></div>
+
+    <SCRipt src="./GAME.JS"></SCRipt>
+
+</body>
+</html>
